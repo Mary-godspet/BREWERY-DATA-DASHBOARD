@@ -47,14 +47,23 @@ Years: 2017 to 2019
 
 **STEPS FOLLOWED**
 STEPS FOLLOWED
+
 •	Step 1: Open power query editor in Excel
+
 •	Step 2: Load data into power query editor.
+
 •	Step 3: Transform my data by checking for missing, duplicates, and inconsistent values
+
 •	Step 4: I replaced missing sales values with the average sales value, I also removed empty rows and convert data types where necessary.
+
 •	Step 5: Given the total sales and profit, two new columns were created namely; ‘Cost’ and ‘Selling Price’ this will enable us know the percentage of total cost relative to revenue and also the total selling price.
+
 •	Step 6: I use Excel functions like AVERAGE, SUM, MAX, and MIN to calculate basic descriptive statistics for numerical columns.
+
 •	Step 7: I summarize the data using PivotTables to gain insights about the distribution of sales by brewery type or location.
+
 •	Step 8: I created charts and visuals to better understand the data, such as:
+
 	Bar charts for sales by brewery type.
 	Scatter plots for production volume vs. sales.
 	Pie charts for the percentage distribution of brewery types
