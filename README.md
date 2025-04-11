@@ -5,187 +5,111 @@
 
 **PROBLEM STATEMENT**
 
-This dashboard helps the Brewery Company to analyze its sales performance across different West African countries and regions as well as identifying critical factors influencing sales. The company aims to maximize its profit by optimizing pricing, production and distribution strategies, and identifies the most/least profitable brands as well as its level of consumption across different regions and countries. It also helps to segment its customers based on their purchasing behaviour, demographics and preferences, thereby identifying distinct customers segments, for the period under review.
+This dashboard helps the Brewery Company to analyze its sales performance across different West African countries and regions as well as identifying critical factors influencing sales. The company aims to maximize its profit by optimizing pricing, production and distribution strategies, and identifies the most/least. The Brewery Data contains information on 7 brands of breweries, which are further classified into Beer and Malt in 6 regions within West African Countries, with a total of 890,722 in Production volume, 400,000,000 as projected Sales and 150,000,000 as projected Profit, within 3 years
 
 by using this dashboard, they have identified areas of concern/need, strength and improvement, with the aid of the analysis, they will be able to develop targeted marketing strategies, develope strategy to optimize profit and improve areas of weakness and needs. 
+**Key Columns:**
+
+**Brands:**
+Hero
+Trophy 
+Eagle Lager 
+Budweiser 
+Beta malt 
+Castle lite 
+Grand malt
+Brand type: 
+Beer 
+Malt
+
+**Countries:** 
+-Ghana 
+-Nigeria 
+-Senegal 
+-Togo  
+	-Benin 
+**Region:** 
+-Southsouth 
+-Southeast 
+-Northcentral 
+-Southwest 
+-Northeast  
+-Northwest
+
+Quantity: 890722units total 
+Sales: 347,480,070
+Profit: 105,587,420
+Cost: 241,892,650
+Months: January to December
+Years: 2017 to 2019
+"The Brewery Data includes details about 7 breweries, with a total quantity of 890722 of beers and malt produced, and a total of 241,892,650 in sales over the past 3 years."
+
 
 **STEPS FOLLOWED**
-1. Open Excel
-2. Open Blank Workbook
-3. click on Data on the menu bar 
-4. select New Query
-5. from the dropdown menu select "From file"
-6. select from Workbook
-7. locate your Data
-8. select and click on Open
-9. in power query editor, transform your Data
-10. close and load your data 
-11. select the first cell in your table
-12. click on insert on the menu bar 
-13. click on pivottable on the taskbar
-14. in the pop up menu, select "New worksheet"
-15. select ok
-16. To get the sum of profit, drag profit to values label in the pivotTable Field. click on insert in the menu bar, click on textbox, copy you sum of profit from the pivotTable and paste on the textbox, enhance the colour
-17. To get the country with the highest profit in 2019, (repeat nos. 11 to 14 above), drag country to rows label, filter year to 2019 and drag to filter label, drag profit to the values label. Under the sum of profit column on your pivotTable, right click on one the values and selec sort, sort largest to smallest. lick on insert in the menu bar, click on recommended charts, select bar chart.
-18. To get year with the highest profit, (repeat nos. 11 to 14 above), drag year to the row label and profit to the values label. click on insert in the menu bar, click on recommended charts, select pie chart.
-19. To get the minimum profit in the month of December 2018, (repeat nos. 11 to 14), filter year to 2018 and drag it to the row label, filter month to December and drag to row label, drag profit to the values label, click on the downward arrow by the sum of profit in the values label, select "value field setting", under "summarize value field by", select Min. click ok. click on insert in the menu bar, click on recommended charts, select bar chart.
+STEPS FOLLOWED
+•	Step 1: Open power query editor in Excel
+•	Step 2: Load data into power query editor.
+•	Step 3: Transform my data by checking for missing, duplicates, and inconsistent values
+•	Step 4: I replaced missing sales values with the average sales value, I also removed empty rows and convert data types where necessary.
+•	Step 5: Given the total sales and profit, two new columns were created namely; ‘Cost’ and ‘Selling Price’ this will enable us know the percentage of total cost relative to revenue and also the total selling price.
+•	Step 6: I use Excel functions like AVERAGE, SUM, MAX, and MIN to calculate basic descriptive statistics for numerical columns.
+•	Step 7: I summarize the data using PivotTables to gain insights about the distribution of sales by brewery type or location.
+•	Step 8: I created charts and visuals to better understand the data, such as:
+	Bar charts for sales by brewery type.
+	Scatter plots for production volume vs. sales.
+	Pie charts for the percentage distribution of brewery types
 
+**INSIGHTS**
+Budweiser tend to have lower production volume at 126274units but they generate the highest revenue at 94705500, and also hold the highest price per unit of $0.594. On the other hand, Hero, although have the highest production volume, generate a lower revenue.
 
+Visuals
+Snap of image
+A donut visuals used to represent the total Profit generated
 
 DASHBOARD LINK 1
 
-![Image](https://github.com/user-attachments/assets/c3fbeed2-9562-456c-a8ae-e4670950709b)
+![Image](https://github.com/user-attachments/assets/a9331b35-8a28-47b4-831a-ba25da8a568e)
 
 
-
+A donut visuals used to represent the total Profit generated
 DASHBOARD LINK 2
 
+![Image](https://github.com/user-attachments/assets/0ff6c318-ca7e-49ba-a0d2-1bd9c83bed24)
 
-![Image](https://github.com/user-attachments/assets/49e38cd4-d520-4786-af0a-d5ad351452e4)
-
-
+A card visual was used to represent the total orders made
 DASHBOARD LINK 3
 
+![Image](https://github.com/user-attachments/assets/30a42640-f1ca-4ff9-9229-7b20f10e093f)
 
-![Image](https://github.com/user-attachments/assets/12c61b54-d2cd-47dd-8113-9c963b6078e0)
+A card visual was used to represent the total Quantity produced
+DASHBOARD LINK 4
 
+![Image](https://github.com/user-attachments/assets/206c6916-3c01-4433-be1f-8119e2c2cfc2)
 
-**INSIGHTS**
+The chart below compares revenue across different brands.
+DASHBOARD LINK 5
 
-Countries involved in the analysis include:
-1. SENEGAL
-2. NIGERIA
-3. GHANA
-4. TOGO
-5. BENIN
+![Image](https://github.com/user-attachments/assets/71cb73fc-9f9d-4e10-95f4-908a5f73e6e1)
 
-Brands involved:
-1. Castle lite
-2. Beta Malt
-3. Budweiser
-4. Hero
-5. Trophy
-6. Eagle lager
-7. Grand Malt
+The chart tracks brewery sales overtime
+DASHBOARD LINK 6
 
+![Image](https://github.com/user-attachments/assets/c769a8fa-d63b-4fe0-9983-68d160fbbf01)
 
-**SCOPE OF THE ANALYSIS** 
+A pie chart represents the profit in percentage for each month in 2019
+DASHBOARD LINK 7
 
-2017 to 2019
+![Image](https://github.com/user-attachments/assets/ec3fc614-0b2b-4c75-afa2-3b4b868374e2)
 
-**SUM OF PROFIT FOR THE COMPANY** = 105587420
+Snap of the dashboard
+DASHBOARD LINK 8
 
-**COUNTRY WITH THE HIGHEST PROFIT IN 2019 IS GHANA**
+![Image](https://github.com/user-attachments/assets/df6530cb-282e-45b2-a017-50627cf5a205)
 
-with the sum of profit = 7144070
 
-**YEAR WITH THE HIGHEST PROFIT IS 2017**
 
-with the sum of profit = 38503320
 
-**COUNTRY WITH THE HIGHEST PROFIT IS SENEGAL**
 
-with the sum of profit = 21485190
 
-**MONTHS IN THE 3 YEARS WITH THE LEAST PROFIT**
 
-2019 - February - 1366880
 
-2018 - May - 2196950
-
-2017 - April - 2574380
-
-**MINIMUM PROFIT IN DECEMBER, 2018**
-
-38150
-
-**PROFIT IN PERCENTAGE FOR EACH MONTH IN 2019**
-
-January - 10.87%
-
-February - 4.55%
-
-March - 8.43%
-
-April - 9.50%
-
-May - 8.57%
-
-June - 8.89%
-
-July - 9.81%
-
-August - 9.94%
-
-September - 6.30%
-
-October - 7.40%
-
-November - 8.91%
-
-December - 6.82%
-
-**BRAND WITH THE HIGHEST PROFIT IN SENEGAL**
-
-Castle lite
-
-** TOP 3 BRANDS CONSUMED IN THE FRANCOPHONES COUNTRIES IN THE LAST 2 YEARS (2017 & 2018)**
-
-Beta malt - 59096
-
-Hero - 56102
-
-Budweiser - 55277
-
-**DETAILS OF BEER CONSUMED IN THE MOST OIL RICH COUNTRY IN W/AFRICA IN THE PAST 3 YEARS**
-
-**Beers**            **2017**      **2018**       **2019**      **Total**
-
-Budweiser              12027         8636          5490         26153
-
-Castle lite            9458          12835         3388         25681
-
-Eagle lager            11968         5503          8401         25872
-
-Hero                   9513          6676          9622         25811
-
-Trophy                 8536          11404         5803         25743
-
-
-**FAVOURITE MALT BRAND IN ANGLOPHONE REGION BETWEEN 2018 & 2019**
-
-Grand Malt - 33221
-
-**BRAND THAT SOLD THE HIGHEST IN NIGERIA IN 2019**
-
-Hero - 9622
-
-**FAVOURITE BRAND IN SOUTHSOUTH REGION IN NIGERIA**
-
-Eagle lager - 4551
-
-**LEVEL OF BEER CONSUMPTION IN NIGERIA**
-
-Budweiser - 26153
-
-Castle lite - 25681
-
-Eagle lager - 25872
-
-Hero -        25811
-
-Trophy - 25743
-
-**Total - 129260**
-
-**COUNTRY WITH HIGHEST CONSUMPTION OF BEER**
-
-Senegal - 129875
-
-**THE HIGHEST SALES PERSONNEL OF BUDWEISER IN SENEGAL**
-
-Jones - 5917
-
-**COUNTRY WITH THE HIGHEST PROFIT OF THE FOURTH QUARTER IN 2019**
-
-Ghana - 2045230
