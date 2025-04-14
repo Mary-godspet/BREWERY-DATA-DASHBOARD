@@ -5,9 +5,10 @@
 
 **PROBLEM STATEMENT**
 
-This dashboard helps the Brewery Company to analyze its sales performance across different West African countries and regions as well as identifying critical factors influencing sales. The company aims to maximize its profit by optimizing pricing, production and distribution strategies, and identifies the most/least. The Brewery Data contains information on 7 brands of breweries, which are further classified into Beer and Malt in 6 regions within West African Countries, with a total of 890,722 in Production volume, 400,000,000 as projected Sales and 150,000,000 as projected Profit, within 3 years
+This dashboard helps the Brewery Company to analyze its sales performance across different West African countries and regions as well as identifying critical factors influencing sales. The company aims to maximize its profit by optimizing pricing, production and distribution strategies. The Brewery Data contains information on 7 brands of breweries, which are further classified into Beer and Malt in 6 regions within West African Countries, with a total of 890,722 in Production volume, 400,000,000 as projected Sales and 150,000,000 as projected Profit, within 3 years
 
 by using this dashboard, they have identified areas of concern/need, strength and improvement, with the aid of the analysis, they will be able to develop targeted marketing strategies, develope strategy to optimize profit and improve areas of weakness and needs. 
+
 **Key Columns:**
 
 **Brands:**
