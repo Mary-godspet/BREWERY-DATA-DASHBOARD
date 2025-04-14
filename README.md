@@ -83,11 +83,19 @@ Years: 2017 to 2019
 
 •	Step 5: Given the total sales and profit, two new columns were created namely; ‘Cost’ and ‘Selling Price’ this will enable us know the percentage of total cost relative to revenue and also the total selling price.
 
-•	Step 6: I use Excel functions like AVERAGE, SUM, MAX, and MIN to calculate basic descriptive statistics for numerical columns.
+•	Step 6: Load and apply, this will open your data in an Excel workbook
 
-•	Step 7: I summarize the data using PivotTables to gain insights about the distribution of sales by brewery type or location.
+•	Step 7: Click on the first cell in your already opened workbook, under the column title
 
-•	Step 8: I created charts and visuals to better understand the data, such as:
+•	Step 8: Click insert on your menu bar, select PivotTable(a dialog box would appear)
+
+•	Step 9: From the dialog box, click "Select a table or range"
+
+•	Step 10: Select "New worksheet" then "ok"
+
+•	Step 11: I summarize the data using PivotTables to gain insights about the distribution of sales by brewery type or location.
+
+•	Step 12: I created charts and visuals to better understand the data, such as:
 
 
 	Bar charts for sales by brewery type.
